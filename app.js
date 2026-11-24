@@ -129,6 +129,12 @@
 
   const renderFlow = (box, key) => {
     box.textContent = '';
+    if (matchMedia('(max-width: 639px)').matches) {
+      // phone: stacked steps instead of a wide diagram
+      const { cols } = FLOWS[key];
+      box.innerHTML = `<ol class="vflow" aria-label="${cols.map((c) => c.join(', ')).join(' → ')}">${cols.map((c, i) => `<li class="vflow__row vflow__row--${i === 0 ? 'start' : i === cols.length - 1 ? 'end' : 'mid'}" style="--c:${i}">${c.map((t) => `<span>${t}</span>`).join('')}</li>`).join('')}</ol>`;
+      return;
+    }
     box.append(buildFlow(key));
   };
   $$('[data-flow-static]').forEach((b) => renderFlow(b, b.dataset.flowStatic));

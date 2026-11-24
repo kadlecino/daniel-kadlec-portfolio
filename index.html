@@ -118,6 +118,16 @@
             <span class="tile__go" aria-hidden="true"></span>
           </a>
         </li>
+        <li>
+          <button type="button" class="tile tile--you tile--teaser" data-teaser>
+            <span class="tile__vis tile__vis--load" aria-hidden="true"><i></i><b>Loading</b></span>
+            <span class="tile__body">
+              <span class="tile__name">PROFIREAL Group</span>
+              <span class="tile__line">Připravuji něco pro vás</span>
+            </span>
+            <span class="tile__go" aria-hidden="true"></span>
+          </button>
+        </li>
       </ul>
     </div>
   </div>
@@ -578,9 +588,22 @@
   </div>
 </dialog>
 
+<!-- teaser -->
+<dialog class="contact teaser" data-teaser-dialog aria-labelledby="teaser-h">
+  <div class="contact__in">
+    <p class="teaser__for">PROFIREAL Group</p>
+    <h2 class="contact__h" id="teaser-h">Loading…</h2>
+    <div class="teaser__track"><i data-teaser-bar></i></div>
+    <p class="teaser__row"><span data-teaser-log aria-live="polite"></span><b data-teaser-pct>0 %</b></p>
+    <p class="teaser__done" data-teaser-done hidden>Ready 3. 12.</p>
+    <button type="button" class="lb-close contact__close" data-teaser-close>Zavřít</button>
+  </div>
+</dialog>
+
 <script src="app.js" defer></script>
 <script src="demos.js" defer></script>
 <script src="sales-app.js" defer></script>
 <script src="reporting-app.js" defer></script>
+<script src="teaser.js" defer></script>
 </body>
 </html>
