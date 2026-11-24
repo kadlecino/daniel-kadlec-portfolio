@@ -182,3 +182,9 @@ body[data-route="automatizace"] .top__nav a[data-nav="provas"] { color: #fff; }
 .hero-h { font-size: clamp(34px, 5.4vw, 86px); line-height: .98; letter-spacing: -.04em; font-weight: 800; font-variation-settings: "wdth" 118; max-width: 17ch; text-wrap: balance; }
 .hero-h span { color: var(--cobalt-ink); white-space: nowrap; }
 @media (max-height: 800px) and (min-width: 1024px) { .hero-h { font-size: clamp(34px, 4.4vw, 68px); } }
+
+.hero-h { max-width: 20ch; }
+.hero-h span { white-space: normal; }
+.hero-traits { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+.hero-traits li { border: 1.5px solid var(--ink); border-radius: 999px; padding: 7px 16px; font-weight: 650; font-size: 15px; }
+@media (max-width: 639px) { .hero-traits li { font-size: 14px; padding: 6px 12px; } }
