@@ -1,0 +1,581 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Daniel Kadlec, AI Growth &amp; Performance Marketing</title>
+<meta name="description" content="Interaktivní portfolio Daniela Kadlece: Meta kampaně, AI kreativa, weby, reporting a automatizace postavené s AI.">
+<meta property="og:title" content="Daniel Kadlec: AI Growth & Performance Marketing">
+<meta property="og:description" content="Proklikejte si kampaně, kreativy, weby, reporting a živé ukázky automatizací.">
+<meta property="og:image" content="assets/img/share.jpg">
+<meta property="og:type" content="website">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#ECEDE8">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles-v3.css">
+<link rel="stylesheet" href="sales-app.css">
+</head>
+<body data-route="home">
+
+<header class="top">
+  <a class="top__name" href="#/" data-home>Daniel Kadlec</a>
+  <nav class="top__nav" aria-label="Větve portfolia">
+    <a href="#/marketing" data-nav="marketing">Marketing a kreativa</a>
+    <a href="#/weby" data-nav="weby">Weby</a>
+    <a href="#/reporting" data-nav="reporting">Reporting</a>
+    <a href="#/automatizace" data-nav="automatizace">Automatizace</a>
+  </nav>
+  <button class="btn btn--small" type="button" data-contact>Kontakt</button>
+</header>
+
+<main id="app">
+
+<!-- ================= HOME ================= -->
+<section class="view home is-active" data-view="home" aria-label="Úvod">
+  <div class="home__glow" aria-hidden="true"></div>
+  <div class="home__in">
+    <div class="intro">
+      <div class="intro__text">
+        <div class="person" data-enter="1">
+          <img class="person__img" src="assets/img/portret.webp" width="900" height="1252" alt="Daniel Kadlec" fetchpriority="high">
+          <p><b>Daniel Kadlec</b><span>AI Growth &amp; Performance Marketing</span></p>
+        </div>
+        <h1 class="hero-h" data-enter="2">Kampaně, kreativy, weby a automatizace. <span>Postavené s AI.</span></h1>
+        <p class="intro__lead" data-enter="3">Čísla už znáte z životopisu. Tady si moji práci můžete sami proklikat: reklamy, weby, reporting i živé ukázky automatizací.</p>
+      </div>
+    </div>
+
+    <div class="hub" data-enter="4">
+      <p class="hub__q">Vyberte, co chcete vidět</p>
+      <ul class="hub__grid" role="list">
+        <li>
+          <a class="tile" href="#/marketing" data-tile="marketing">
+            <span class="tile__vis tile__vis--ads" aria-hidden="true">
+              <img src="assets/img/top_cena.webp" alt="" width="720" height="900">
+              <img src="assets/img/top_promena1.webp" alt="" width="720" height="900">
+              <img src="assets/img/top_vycisteni.webp" alt="" width="720" height="900">
+              <img src="assets/img/dapee_zarostla_slany.webp" alt="" width="720" height="900">
+            </span>
+            <span class="tile__body">
+              <span class="tile__name">Marketing a kreativa</span>
+              <span class="tile__line">Kampaně, AI kreativy, A/B test, videa</span>
+            </span>
+            <span class="tile__go" aria-hidden="true"></span>
+          </a>
+        </li>
+        <li>
+          <a class="tile" href="#/weby" data-tile="weby">
+            <span class="tile__vis tile__vis--web" aria-hidden="true">
+              <span class="mini-browser"><b></b><span><img src="assets/img/web_annies.webp" alt="" width="1200" height="3750"></span></span>
+            </span>
+            <span class="tile__body">
+              <span class="tile__name">Weby</span>
+              <span class="tile__line">VSL landing pages, redesign, SEO</span>
+            </span>
+            <span class="tile__go" aria-hidden="true"></span>
+          </a>
+        </li>
+        <li>
+          <a class="tile" href="#/reporting" data-tile="reporting">
+            <span class="tile__vis tile__vis--report" aria-hidden="true">
+              <img src="assets/img/client_report.webp" alt="" width="1200" height="840">
+            </span>
+            <span class="tile__body">
+              <span class="tile__name">Reporting</span>
+              <span class="tile__line">Živé reporty, data z kampaní</span>
+            </span>
+            <span class="tile__go" aria-hidden="true"></span>
+          </a>
+        </li>
+        <li>
+          <a class="tile" href="#/automatizace" data-tile="automatizace">
+            <span class="tile__vis tile__vis--flow" aria-hidden="true">
+              <svg viewBox="0 0 300 170" class="mini-flow">
+                <path id="mf1" d="M40 85 C 100 85, 100 40, 150 40"/>
+                <path id="mf2" d="M40 85 C 100 85, 100 130, 150 130"/>
+                <path id="mf3" d="M150 40 C 200 40, 210 85, 260 85"/>
+                <path id="mf4" d="M150 130 C 200 130, 210 85, 260 85"/>
+                <circle cx="40" cy="85" r="14"/><circle cx="150" cy="40" r="14"/><circle cx="150" cy="130" r="14"/><circle cx="260" cy="85" r="14" class="mini-flow__end"/>
+                <circle r="4" class="pulse"><animateMotion dur="2.6s" repeatCount="indefinite"><mpath href="#mf1"/></animateMotion></circle>
+                <circle r="4" class="pulse"><animateMotion dur="2.6s" begin="1.3s" repeatCount="indefinite"><mpath href="#mf2"/></animateMotion></circle>
+                <circle r="4" class="pulse"><animateMotion dur="2.6s" begin=".6s" repeatCount="indefinite"><mpath href="#mf3"/></animateMotion></circle>
+                <circle r="4" class="pulse"><animateMotion dur="2.6s" begin="1.9s" repeatCount="indefinite"><mpath href="#mf4"/></animateMotion></circle>
+              </svg>
+            </span>
+            <span class="tile__body">
+              <span class="tile__name">Automatizace</span>
+              <span class="tile__line">Živé ukázky: AI agent, leady, hovory</span>
+            </span>
+            <span class="tile__go" aria-hidden="true"></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MARKETING ================= -->
+<section class="view chapter" data-view="marketing" aria-label="Marketing a kreativa" hidden>
+  <div class="chapter__bar">
+    <h2 class="chapter__title">Marketing a kreativa</h2>
+    <div class="steps" role="tablist" aria-label="Kroky"></div>
+  </div>
+  <div class="slides">
+
+    <article class="slide" data-step="Výsledky">
+      <div class="s-grid">
+        <div class="s-text">
+          <h3 class="s-h">Zahradnické práce Kubín: první měsíc</h3>
+          <p class="s-lead">Ústecký kraj, 27. 9. až 26. 10. 2026. Postavil jsem funnel, reklamy i grafiku. Kampaň řídím přes vlastní AI agenty napojené na Meta.</p>
+          <dl class="ledger">
+            <div><dt>Útrata za reklamu</dt><dd data-count="13750" data-suffix=" Kč">13 750 Kč</dd></div>
+            <div><dt>Poptávky</dt><dd data-count="97">97</dd></div>
+            <div><dt>Cena za poptávku</dt><dd>cca 142 Kč</dd></div>
+            <div><dt>Zakázky</dt><dd>10 + ploty a dlažby</dd></div>
+            <div class="ledger__total"><dt>Hodnota zakázek</dt><dd data-count="700000" data-prefix="cca " data-suffix=" Kč">cca 700 000 Kč</dd></div>
+          </dl>
+        </div>
+        <div class="s-vis">
+          <div class="funnel" data-funnel>
+            <p class="funnel__q">Jak poptávka vzniká? Přepněte formát.</p>
+            <div class="seg" role="group" aria-label="Formát poptávky">
+              <button type="button" class="seg__btn is-on" aria-pressed="true" data-src="vsl">VSL landing page</button>
+              <button type="button" class="seg__btn" aria-pressed="false" data-src="form">Instant form</button>
+            </div>
+            <ol class="path" data-path aria-live="polite"></ol>
+            <p class="funnel__desc" data-desc></p>
+            <p class="funnel__note">Oba formáty běží vedle sebe. Rozhoduje cena za zakázku, ne za lead.</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="slide" data-step="Kreativy">
+      <div class="s-head">
+        <h3 class="s-h">Reklamy, které přinesly nejvíc poptávek</h3>
+        <p class="s-lead">Výběr pro Kubína podle výsledků v Meta Ads za celou kampaň. Seřazeno podle počtu poptávek. Klikněte na reklamu.</p>
+      </div>
+      <ul class="ads top-ads" role="list" data-ads="kubin">
+        <li class="top-card">
+          <button type="button" class="ad"><img src="assets/img/top_cena.webp" alt="Reklama: Chcete vědět, kolik bude stát úprava vaší zahrady?" loading="lazy" width="720" height="900"></button>
+          <p class="top-card__stat"><b>41</b> poptávek</p>
+          <p class="top-card__sub">cca 122 Kč za poptávku</p>
+        </li>
+        <li class="top-card">
+          <button type="button" class="ad"><img src="assets/img/top_vycisteni.webp" alt="Reklama: Zarostla vám zahrada?" loading="lazy" width="720" height="900"></button>
+          <p class="top-card__stat"><b>22</b> poptávek</p>
+          <p class="top-card__sub">cca 172 Kč za poptávku</p>
+        </li>
+        <li class="top-card">
+          <button type="button" class="ad"><img src="assets/img/top_promena1.webp" alt="Reklama před a po: Chcete podobnou proměnu i na své zahradě?" loading="lazy" width="720" height="900"></button>
+          <p class="top-card__stat"><b>18</b> poptávek</p>
+          <p class="top-card__sub">cca 163 Kč za poptávku</p>
+        </li>
+        <li class="top-card">
+          <a class="ad ad--video" href="#/marketing/6" aria-label="Přehrát video reklamu Kácení"><img src="assets/video/kubin_ai_kaceni_9x16_poster.jpg" alt="" loading="lazy" width="540" height="960"><span class="ad__play" aria-hidden="true"></span></a>
+          <p class="top-card__stat"><b>8</b> poptávek</p>
+          <p class="top-card__sub">cca 146 Kč za poptávku, video stříhané AI</p>
+        </li>
+        <li class="top-card">
+          <button type="button" class="ad"><img src="assets/img/top_promena2.webp" alt="Reklama před a po, tmavá varianta" loading="lazy" width="720" height="900"></button>
+          <p class="top-card__stat"><b>3</b> poptávek</p>
+          <p class="top-card__sub">cca 138 Kč za poptávku</p>
+        </li>
+      </ul>
+    </article>
+
+    <article class="slide" data-step="Galerie">
+      <div class="s-head">
+        <h3 class="s-h">Galerie: 37 kreativ z jedné kampaně</h3>
+        <p class="s-lead">Výběr z variant, které jsem pro Kubína s AI připravil. Každé téma má vlastní úhel: město, proměna, recenze, cena, služba, sezóna. Filtrujte a klikněte pro zvětšení.</p>
+      </div>
+      <div class="chips" role="group" aria-label="Filtr galerie" data-filter="galerie">
+        <button type="button" class="chip is-on" aria-pressed="true" data-f="all">Vše</button>
+        <button type="button" class="chip" aria-pressed="false" data-f="mesto">Města</button>
+        <button type="button" class="chip" aria-pressed="false" data-f="predpo">Před a po</button>
+        <button type="button" class="chip" aria-pressed="false" data-f="recenze">Recenze</button>
+        <button type="button" class="chip" aria-pressed="false" data-f="cena">Cena</button>
+        <button type="button" class="chip" aria-pressed="false" data-f="sluzby">Služby</button>
+        <button type="button" class="chip" aria-pressed="false" data-f="sezona">Sezóna</button>
+      </div>
+      <ul class="ads gallery" role="list" data-ads="galerie">
+        <li data-tags="mesto"><button type="button" class="ad"><img src="assets/img/gal_00.webp" alt="Reklama pro konkrétní město" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="predpo"><button type="button" class="ad"><img src="assets/img/gal_06.webp" alt="Reklama před a po" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="recenze"><button type="button" class="ad"><img src="assets/img/gal_11.webp" alt="Reklama s recenzí" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="cena"><button type="button" class="ad"><img src="assets/img/gal_15.webp" alt="Reklama s cenou" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="sluzby"><button type="button" class="ad"><img src="assets/img/gal_19.webp" alt="Reklama na službu" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="sezona"><button type="button" class="ad"><img src="assets/img/gal_28.webp" alt="Sezónní reklama" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="mesto"><button type="button" class="ad"><img src="assets/img/gal_01.webp" alt="Reklama pro konkrétní město" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="predpo"><button type="button" class="ad"><img src="assets/img/gal_07.webp" alt="Reklama před a po" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="recenze"><button type="button" class="ad"><img src="assets/img/gal_12.webp" alt="Reklama s recenzí" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="cena"><button type="button" class="ad"><img src="assets/img/gal_16.webp" alt="Reklama s cenou" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="sluzby"><button type="button" class="ad"><img src="assets/img/gal_20.webp" alt="Reklama na službu" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="sezona"><button type="button" class="ad"><img src="assets/img/gal_29.webp" alt="Sezónní reklama" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="mesto"><button type="button" class="ad"><img src="assets/img/gal_02.webp" alt="Reklama pro konkrétní město" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="predpo"><button type="button" class="ad"><img src="assets/img/gal_08.webp" alt="Reklama před a po" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="recenze"><button type="button" class="ad"><img src="assets/img/gal_13.webp" alt="Reklama s recenzí" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="cena"><button type="button" class="ad"><img src="assets/img/gal_17.webp" alt="Reklama s cenou" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="sluzby"><button type="button" class="ad"><img src="assets/img/gal_21.webp" alt="Reklama na službu" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="sezona"><button type="button" class="ad"><img src="assets/img/kubin_listi_nech_na_nas.webp" alt="Sezónní reklama" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="mesto"><button type="button" class="ad"><img src="assets/img/gal_03.webp" alt="Reklama pro konkrétní město" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="predpo"><button type="button" class="ad"><img src="assets/img/gal_09.webp" alt="Reklama před a po" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="recenze"><button type="button" class="ad"><img src="assets/img/gal_14.webp" alt="Reklama s recenzí" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="cena"><button type="button" class="ad"><img src="assets/img/gal_18.webp" alt="Reklama s cenou" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="sluzby"><button type="button" class="ad"><img src="assets/img/gal_22.webp" alt="Reklama na službu" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="sezona"><button type="button" class="ad"><img src="assets/img/kubin_listi_vikend.webp" alt="Sezónní reklama" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="mesto"><button type="button" class="ad"><img src="assets/img/gal_04.webp" alt="Reklama pro konkrétní město" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="predpo"><button type="button" class="ad"><img src="assets/img/gal_10.webp" alt="Reklama před a po" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="sluzby"><button type="button" class="ad"><img src="assets/img/gal_23.webp" alt="Reklama na službu" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="sezona"><button type="button" class="ad"><img src="assets/img/kubin_listi_vsude.webp" alt="Sezónní reklama" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="mesto"><button type="button" class="ad"><img src="assets/img/gal_05.webp" alt="Reklama pro konkrétní město" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="sluzby"><button type="button" class="ad"><img src="assets/img/gal_24.webp" alt="Reklama na službu" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="mesto"><button type="button" class="ad"><img src="assets/img/kubin_decin_prorez.webp" alt="Reklama pro konkrétní město" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="sluzby"><button type="button" class="ad"><img src="assets/img/gal_25.webp" alt="Reklama na službu" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="mesto"><button type="button" class="ad"><img src="assets/img/kubin_teplice_vycisteni.webp" alt="Reklama pro konkrétní město" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="sluzby"><button type="button" class="ad"><img src="assets/img/gal_26.webp" alt="Reklama na službu" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="sluzby"><button type="button" class="ad"><img src="assets/img/gal_27.webp" alt="Reklama na službu" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="sluzby"><button type="button" class="ad"><img src="assets/img/kubin_parez.webp" alt="Reklama na službu" loading="lazy" width="540" height="675"></button></li>
+        <li data-tags="sluzby"><button type="button" class="ad"><img src="assets/img/kubin_trees_offer.webp" alt="Reklama na službu" loading="lazy" width="540" height="675"></button></li>
+      </ul>
+    </article>
+
+    <article class="slide" data-step="A/B test">
+      <div class="s-grid s-grid--ab">
+        <div class="s-text">
+          <h3 class="s-h">A/B test: AI fotka proti skutečné</h3>
+          <p class="s-lead">Stejný text, stejná nabídka. Liší se jen fotka. Táhněte posuvník a porovnejte obě varianty.</p>
+          <p class="s-lead">Rozhodují čísla, ne pocit. Co nefunguje, vypnu. Co funguje, posílím.</p>
+        </div>
+        <div class="s-vis">
+          <div class="compare compare--ad" data-compare style="--pos: 50%">
+            <img src="assets/img/kubin_podzim_B_realna.webp" alt="Varianta B: skutečná fotka" width="720" height="900" class="compare__base">
+            <div class="compare__top"><img src="assets/img/kubin_podzim_A_ai.webp" alt="Varianta A: AI fotka" width="720" height="900"></div>
+            <span class="compare__tag compare__tag--l">A: AI fotka</span>
+            <span class="compare__tag compare__tag--r">B: skutečná fotka</span>
+            <span class="compare__line" aria-hidden="true"><span class="compare__knob"></span></span>
+            <input class="compare__range" type="range" min="0" max="100" value="50" aria-label="Posuvník mezi variantou A a B">
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="slide" data-step="Dapee">
+      <div class="s-grid s-grid--dapee">
+        <div class="s-text">
+          <h3 class="s-h">Zahrady Dapee: stejný systém v novém kraji</h3>
+          <p class="s-lead">Středočeský kraj. Funnel z Kubína jsem přenesl pro Kladno, Slaný a okolí Prahy. Reklamy stojí na formátu před a po.</p>
+          <dl class="ledger">
+            <div><dt>Období</dt><dd>7. až 17. 11. 2026</dd></div>
+            <div><dt>Útrata za reklamu</dt><dd data-count="6515" data-suffix=" Kč">6 515 Kč</dd></div>
+            <div><dt>Cena za poptávku</dt><dd>cca 155 Kč</dd></div>
+            <div class="ledger__total"><dt>Poptávky za 11 dní</dt><dd data-count="42">42</dd></div>
+          </dl>
+        </div>
+        <ul class="ads ads--4" role="list" data-ads="dapee">
+          <li><button type="button" class="ad"><img src="assets/img/dapee_kaceni_kladno.webp" alt="Reklama: Kácení stromů na Kladně a okolí" loading="lazy" width="720" height="900"></button></li>
+          <li><button type="button" class="ad"><img src="assets/img/dapee_zarostla_slany.webp" alt="Reklama: Zarostlá zahrada ve Slaném? Před a po" loading="lazy" width="720" height="900"></button></li>
+          <li><button type="button" class="ad"><img src="assets/img/dapee_promena_zahrady.webp" alt="Reklama: Chcete podobnou proměnu i na své zahradě?" loading="lazy" width="720" height="900"></button></li>
+          <li><button type="button" class="ad"><img src="assets/img/dapee_kaceni_nalety.webp" alt="Reklama: Stromy a nálety na pozemku ve Středočeském kraji?" loading="lazy" width="720" height="900"></button></li>
+          <li><button type="button" class="ad"><img src="assets/img/dapee_cisteni_okoli.webp" alt="Reklama: Vraťte svému pozemku pořádek!" loading="lazy" width="720" height="900"></button></li>
+          <li><button type="button" class="ad"><img src="assets/img/dapee_udrzba_slany.webp" alt="Reklama: Hledáte zahradníka ve Slaném?" loading="lazy" width="720" height="900"></button></li>
+          <li><button type="button" class="ad"><img src="assets/img/dapee_prerostle_kere.webp" alt="Reklama: Přerostlé keře ve Středočeském kraji?" loading="lazy" width="720" height="900"></button></li>
+          <li><button type="button" class="ad"><img src="assets/img/dapee_uklid_okoli.webp" alt="Reklama: Potřebujete uklidit zahradu ve Středočeském kraji?" loading="lazy" width="720" height="900"></button></li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="slide" data-step="AI video">
+      <div class="s-grid s-grid--video">
+        <div class="s-text">
+          <h3 class="s-h">AI video pro Annie's Bar &amp; Grill</h3>
+          <p class="s-lead">Burger od grilu až na stůl. Video jsem vytvořil s AI pro hlavní stránku webu restaurace v Praze. Jedna verze na šířku pro počítač, druhá na výšku pro mobil.</p>
+          <div class="seg" role="group" aria-label="Formát videa" data-format>
+            <button type="button" class="seg__btn is-on" aria-pressed="true" data-fmt="16x9">Na šířku 16:9</button>
+            <button type="button" class="seg__btn" aria-pressed="false" data-fmt="9x16">Na výšku 9:16</button>
+          </div>
+        </div>
+        <div class="s-vis">
+          <div class="stage" data-stage="16x9">
+            <div class="vid vid--16x9" data-video>
+              <video src="assets/video/annies_ai_16x9.mp4" poster="assets/video/annies_ai_16x9_poster.jpg" muted loop playsinline preload="none" aria-label="AI video: burger pro web Annie's, na šířku"></video>
+              <button class="vid__btn" type="button" aria-label="Přehrát video" aria-pressed="false"><span class="vid__icon" aria-hidden="true"></span></button>
+            </div>
+            <div class="vid vid--9x16" data-video>
+              <video src="assets/video/annies_ai_9x16.mp4" poster="assets/video/annies_ai_9x16_poster.jpg" muted loop playsinline preload="none" aria-label="AI video: burger pro web Annie's, na výšku"></video>
+              <button class="vid__btn" type="button" aria-label="Přehrát video" aria-pressed="false"><span class="vid__icon" aria-hidden="true"></span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="slide" data-step="Video reklama">
+      <div class="s-grid s-grid--reel">
+        <div class="s-text">
+          <h3 class="s-h">Video reklama, kterou sestříhala AI</h3>
+          <p class="s-lead">Kácení stromů pro Kubína. Video před a po ze skutečné zakázky, s nabídkou a tlačítkem hned v prvních vteřinách. Celý střih udělal AI agent.</p>
+          <dl class="ledger ledger--mini">
+            <div><dt>Poptávky</dt><dd>8</dd></div>
+            <div><dt>Cena za poptávku</dt><dd>cca 146 Kč</dd></div>
+            <div><dt>Míra prokliku</dt><dd>3,05 %</dd></div>
+          </dl>
+        </div>
+        <div class="s-vis s-vis--center">
+          <div class="vid vid--phone" data-video>
+            <video src="assets/video/kubin_ai_kaceni_9x16.mp4" poster="assets/video/kubin_ai_kaceni_9x16_poster.jpg" muted loop playsinline preload="none" aria-label="Video reklama Kácení stromů, sestříhaná AI"></video>
+            <button class="vid__btn" type="button" aria-label="Přehrát video" aria-pressed="false"><span class="vid__icon" aria-hidden="true"></span></button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </div>
+  <nav class="stepper" aria-label="Navigace kroky">
+    <button type="button" class="stepper__btn stepper__btn--prev" data-prev>Zpět</button>
+    <span class="stepper__count" data-count-label>1 / 6</span>
+    <button type="button" class="btn stepper__btn--next" data-next>Další</button>
+  </nav>
+</section>
+
+<!-- ================= WEBY ================= -->
+<section class="view chapter" data-view="weby" aria-label="Weby" hidden>
+  <div class="chapter__bar">
+    <h2 class="chapter__title">Weby</h2>
+    <div class="steps" role="tablist" aria-label="Kroky"></div>
+  </div>
+  <div class="slides">
+
+    <article class="slide" data-step="Prohlížeč webů">
+      <div class="s-grid s-grid--sites">
+        <div class="s-text">
+          <h3 class="s-h">Vyberte web a projděte ho</h3>
+          <ul class="sitelist" role="list" data-sites>
+            <li><button type="button" class="site-btn is-on" aria-pressed="true" data-site="kubinvsl"><b>VSL landing page Kubín</b><span>Funnel s videem, který vede k poptávce.</span></button></li>
+            <li><button type="button" class="site-btn" aria-pressed="false" data-site="dapeevsl"><b>VSL landing page Dapee</b><span>Stejný systém přenesený do nového kraje.</span></button></li>
+            <li><button type="button" class="site-btn" aria-pressed="false" data-site="machr"><b>MACHR reality</b><span>Web realitní kanceláře. Odhad nemovitosti zdarma jako hlavní akce.</span></button></li>
+            <li><button type="button" class="site-btn" aria-pressed="false" data-site="m2work"><b>M2WORK</b><span>Redesign webu stavební firmy.</span></button></li>
+            <li><button type="button" class="site-btn" aria-pressed="false" data-site="annies"><b>Annie's Bar &amp; Grill</b><span>SEO podstránky EN a CZ, měření pro Google Ads.</span></button></li>
+          </ul>
+        </div>
+        <div class="s-vis">
+          <div class="viewer" data-viewer data-mode="desktop">
+            <div class="viewer__bar">
+              <div class="seg seg--small" role="group" aria-label="Zařízení">
+                <button type="button" class="seg__btn is-on" aria-pressed="true" data-dev="desktop">Počítač</button>
+                <button type="button" class="seg__btn" aria-pressed="false" data-dev="mobile">Mobil</button>
+              </div>
+              <a class="btn btn--live" data-site-link href="https://www.zahradnicke-prace-kubin.cz/vsl/" target="_blank" rel="noopener">Otevřít živý web<span class="btn__ext" aria-hidden="true"></span></a>
+            </div>
+            <div class="viewer__stage">
+              <div class="browser">
+                <span class="browser__bar" aria-hidden="true"><i></i><i></i><i></i><b data-site-url>zahradnicke-prace-kubin.cz/vsl</b></span>
+                <div class="browser__view" tabindex="0" aria-label="Náhled webu, scrollujte uvnitř"><img data-site-desk src="assets/img/web_kubin_vsl.webp" alt="Náhled webu na počítači" width="1200" height="3750"></div>
+              </div>
+              <div class="phone"><img data-site-mob src="assets/img/mobil_kubin_vsl_mobil.webp" alt="Náhled webu na mobilu" width="390" height="600"></div>
+              <p class="viewer__hint" data-hint>Scrollujte uvnitř okna</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="slide" data-step="M2WORK před a po">
+      <div class="s-grid s-grid--wide">
+        <div class="s-text">
+          <h3 class="s-h">M2WORK: před a po</h3>
+          <p class="s-lead">Původní web neříkal, co firma dělá. Nový to říká hned nahoře: zámková dlažba, ploty a brány v Ústí nad Labem a okolí. Táhněte posuvník.</p>
+          <a class="link" href="https://m2work.cz/" target="_blank" rel="noopener">Otevřít m2work.cz</a>
+        </div>
+        <div class="s-vis">
+          <div class="compare compare--web" data-compare style="--pos: 50%">
+            <img src="assets/img/m2work_po.webp" alt="M2WORK: nový web" width="962" height="602" class="compare__base">
+            <div class="compare__top"><img src="assets/img/m2work_pred.webp" alt="M2WORK: původní web" width="962" height="602"></div>
+            <span class="compare__tag compare__tag--l">Před</span>
+            <span class="compare__tag compare__tag--r">Po</span>
+            <span class="compare__line" aria-hidden="true"><span class="compare__knob"></span></span>
+            <input class="compare__range" type="range" min="0" max="100" value="50" aria-label="Posuvník mezi původním a novým webem">
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="slide" data-step="M2WORK videa">
+      <div class="s-head">
+        <h3 class="s-h">Krátká videa z realizací pro web M2WORK</h3>
+        <p class="s-lead">Krátké smyčky ze záběrů ze staveb. Na webu ukazují práci firmy líp než galerie fotek.</p>
+      </div>
+      <ul class="vidwall" role="list">
+        <li>
+          <div class="vid vid--tile" data-video>
+            <video src="assets/video/m2w_dlazba-pred-a-po.mp4" poster="assets/video/m2w_dlazba-pred-a-po.jpg" muted loop playsinline preload="none" aria-label="M2WORK: Dlažba před a po"></video>
+            <span class="vid__label">Dlažba před a po</span>
+            <button class="vid__btn" type="button" aria-label="Přehrát video" aria-pressed="false"><span class="vid__icon" aria-hidden="true"></span></button>
+          </div>
+        </li>
+        <li>
+          <div class="vid vid--tile" data-video>
+            <video src="assets/video/m2w_od-vykopu-k-dlazbe.mp4" poster="assets/video/m2w_od-vykopu-k-dlazbe.jpg" muted loop playsinline preload="none" aria-label="M2WORK: Od výkopu k dlažbě"></video>
+            <span class="vid__label">Od výkopu k dlažbě</span>
+            <button class="vid__btn" type="button" aria-label="Přehrát video" aria-pressed="false"><span class="vid__icon" aria-hidden="true"></span></button>
+          </div>
+        </li>
+        <li>
+          <div class="vid vid--tile" data-video>
+            <video src="assets/video/m2w_schody-timelapse.mp4" poster="assets/video/m2w_schody-timelapse.jpg" muted loop playsinline preload="none" aria-label="M2WORK: Schody, timelapse"></video>
+            <span class="vid__label">Schody, timelapse</span>
+            <button class="vid__btn" type="button" aria-label="Přehrát video" aria-pressed="false"><span class="vid__icon" aria-hidden="true"></span></button>
+          </div>
+        </li>
+        <li>
+          <div class="vid vid--tile" data-video>
+            <video src="assets/video/m2w_terasa-pilire.mp4" poster="assets/video/m2w_terasa-pilire.jpg" muted loop playsinline preload="none" aria-label="M2WORK: Terasa na pilířích"></video>
+            <span class="vid__label">Terasa na pilířích</span>
+            <button class="vid__btn" type="button" aria-label="Přehrát video" aria-pressed="false"><span class="vid__icon" aria-hidden="true"></span></button>
+          </div>
+        </li>
+        <li>
+          <div class="vid vid--tile" data-video>
+            <video src="assets/video/m2w_plot-podezdivka.mp4" poster="assets/video/m2w_plot-podezdivka.jpg" muted loop playsinline preload="none" aria-label="M2WORK: Plot s podezdívkou"></video>
+            <span class="vid__label">Plot s podezdívkou</span>
+            <button class="vid__btn" type="button" aria-label="Přehrát video" aria-pressed="false"><span class="vid__icon" aria-hidden="true"></span></button>
+          </div>
+        </li>
+        <li>
+          <div class="vid vid--tile" data-video>
+            <video src="assets/video/m2w_terasa-bazen.mp4" poster="assets/video/m2w_terasa-bazen.jpg" muted loop playsinline preload="none" aria-label="M2WORK: Terasa u bazénu"></video>
+            <span class="vid__label">Terasa u bazénu</span>
+            <button class="vid__btn" type="button" aria-label="Přehrát video" aria-pressed="false"><span class="vid__icon" aria-hidden="true"></span></button>
+          </div>
+        </li>
+      </ul>
+    </article>
+
+    <article class="slide" data-step="Annie's před a po">
+      <div class="s-grid s-grid--wide">
+        <div class="s-text">
+          <h3 class="s-h">Annie's Bar &amp; Grill: před a po</h3>
+          <p class="s-lead">Z původní stránky s logem je web, který prodává: AI video burgeru nahoře, menu a cesta do podniku na jedno kliknutí, angličtina i čeština. Táhněte posuvník.</p>
+          <p class="s-lead">K tomu SEO podstránky a měření konverzí pro Google Ads.</p>
+          <a class="link" href="https://www.anniesprague.com/" target="_blank" rel="noopener">Otevřít anniesprague.com</a>
+        </div>
+        <div class="s-vis">
+          <div class="compare compare--web compare--16x10" data-compare style="--pos: 50%">
+            <img src="assets/img/annies_po.webp" alt="Annie's: současný web" width="1200" height="750" class="compare__base">
+            <div class="compare__top"><img src="assets/img/annies_pred.webp" alt="Annie's: původní web z dubna 2026" width="1200" height="750"></div>
+            <span class="compare__tag compare__tag--l">Před</span>
+            <span class="compare__tag compare__tag--r">Po</span>
+            <span class="compare__line" aria-hidden="true"><span class="compare__knob"></span></span>
+            <input class="compare__range" type="range" min="0" max="100" value="50" aria-label="Posuvník mezi původním a novým webem Annie's">
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </div>
+  <nav class="stepper" aria-label="Navigace kroky">
+    <button type="button" class="stepper__btn stepper__btn--prev" data-prev>Zpět</button>
+    <span class="stepper__count" data-count-label>1 / 2</span>
+    <button type="button" class="btn stepper__btn--next" data-next>Další</button>
+  </nav>
+</section>
+
+<!-- ================= REPORTING ================= -->
+<section class="view chapter" data-view="reporting" aria-label="Reporting" hidden>
+  <div class="chapter__bar">
+    <h2 class="chapter__title">Reporting</h2>
+    <div class="steps" role="tablist" aria-label="Kroky"></div>
+  </div>
+  <div class="slides">
+
+    <article class="slide" data-step="Živý report">
+      <div class="s-grid s-grid--wide">
+        <div class="s-text">
+          <h3 class="s-h">Report, který se obnovuje každých 15 minut</h3>
+          <p class="s-lead">Klient Kubín vidí poptávky, útratu a cenu za poptávku živě. Odkaz je chráněný heslem. Klikněte na body v reportu.</p>
+          <p class="s-note" data-hotspot-text aria-live="polite">Report ukazuje delší období než první měsíc, proto jsou čísla vyšší.</p>
+        </div>
+        <div class="s-vis">
+          <div class="report" data-report>
+            <img src="assets/img/client_report.webp" alt="Živý klientský report Kubín" width="1200" height="840">
+            <button type="button" class="spot" style="--x: 61%; --y: 5%" data-text="Když se data zpozdí, report na to sám upozorní.">1</button>
+            <button type="button" class="spot" style="--x: 37%; --y: 21%" data-text="Poptávky celkem. Rozdělené na web a formulář v reklamě.">2</button>
+            <button type="button" class="spot" style="--x: 62%; --y: 21%" data-text="Útrata za reklamy na Facebooku a Instagramu.">3</button>
+            <button type="button" class="spot" style="--x: 87%; --y: 21%" data-text="Průměrná cena za poptávku za celé období.">4</button>
+            <button type="button" class="spot" style="--x: 42%; --y: 40%" data-text="Web proti formuláři: poptávky, útrata a cena za poptávku vedle sebe.">5</button>
+            <button type="button" class="spot" style="--x: 42%; --y: 73%" data-text="Vývoj po týdnech. Hned je vidět, co roste a co ztrácí.">6</button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="slide" data-step="Reportingová aplikace">
+      <div class="s-grid s-grid--app">
+        <div class="s-text">
+          <h3 class="s-h">Reporting pro kampaň s denním spendem</h3>
+          <p class="big-num big-num--side" data-count="170000" data-suffix=" Kč">170 000 Kč</p>
+          <p class="s-lead">Postavil jsem řídicí centrum: útrata, konverze, ROAS, CPA a leady na jednom místě, den po dni.</p>
+          <p class="s-lead">Přepněte období nebo otevřete Kampaně. Čísla v ukázce jsou vzorová.</p>
+        </div>
+        <div class="s-vis"><div data-rapp></div></div>
+      </div>
+    </article>
+
+  </div>
+  <nav class="stepper" aria-label="Navigace kroky">
+    <button type="button" class="stepper__btn stepper__btn--prev" data-prev>Zpět</button>
+    <span class="stepper__count" data-count-label>1 / 2</span>
+    <button type="button" class="btn stepper__btn--next" data-next>Další</button>
+  </nav>
+</section>
+
+<!-- ================= AUTOMATIZACE ================= -->
+<section class="view chapter chapter--dark" data-view="automatizace" aria-label="Automatizace" hidden>
+  <div class="chapter__bar">
+    <h2 class="chapter__title">Automatizace</h2>
+    <div class="steps" role="tablist" aria-label="Kroky"></div>
+  </div>
+  <div class="slides" data-auto-slides></div>
+  <nav class="stepper" aria-label="Navigace kroky">
+    <button type="button" class="stepper__btn stepper__btn--prev" data-prev>Zpět</button>
+    <span class="stepper__count" data-count-label>1 / 6</span>
+    <button type="button" class="btn stepper__btn--next" data-next>Další</button>
+  </nav>
+</section>
+
+</main>
+
+<!-- lightbox -->
+<dialog class="lightbox" data-lightbox aria-label="Reklama ve velkém">
+  <img data-lb-img src="" alt="">
+  <button type="button" class="lb-btn lb-btn--prev" data-lb-prev aria-label="Předchozí reklama"></button>
+  <button type="button" class="lb-btn lb-btn--next" data-lb-next aria-label="Další reklama"></button>
+  <button type="button" class="lb-close" data-lb-close aria-label="Zavřít">Zavřít</button>
+</dialog>
+
+<!-- contact -->
+<dialog class="contact" data-contact-dialog aria-labelledby="contact-h">
+  <div class="contact__in">
+    <h2 class="contact__h" id="contact-h">Rád vám vše ukážu naživo.</h2>
+    <p class="s-lead">Kampaně, reporty i automatizace. K dispozici jsem ihned.</p>
+    <ul class="contact__list" role="list">
+      <li><a class="contact__big" href="mailto:dankadlec172@gmail.com?subject=Pozice%20AI%20Growth%20%26%20Performance%20Marketing">dankadlec172@gmail.com</a></li>
+      <li><a class="contact__big" href="tel:+420725833431">+420 725 833 431</a></li>
+    </ul>
+    <div class="contact__cta">
+      <a class="btn" href="mailto:dankadlec172@gmail.com?subject=Pozice%20AI%20Growth%20%26%20Performance%20Marketing">Napsat e-mail</a>
+      <a class="btn btn--ghost" href="assets/Daniel_Kadlec_CV_AI.pdf" download>Stáhnout CV</a>
+    </div>
+    <button type="button" class="lb-close contact__close" data-contact-close>Zavřít</button>
+  </div>
+</dialog>
+
+<script src="app.js" defer></script>
+<script src="demos.js" defer></script>
+<script src="sales-app.js" defer></script>
+<script src="reporting-app.js" defer></script>
+</body>
+</html>
